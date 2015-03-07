@@ -161,7 +161,7 @@ Si vous choisissez la première option ( et je recommande celle-ci car les `<but
 <button type="button">Annuler</button>
 ```
 
-Si jamais vous vouliez choisir la seconde option, contentez-vous juste de ne pas définir `line-height` et utiliser *seulement* le `padding` vertical pour aligner le texte dans le bouton. [Regardez cette exemple (JS Bin)](http://jsbin.com/yabek/4/) dans Firefox pour voir le problème original et comment le contourner.
+Si jamais vous vouliez choisir la seconde option, contentez-vous juste de ne pas définir `line-height` et utiliser *seulement* le `padding` vertical pour aligner le texte dans le bouton. [Regardez cet exemple (JS Bin)](http://jsbin.com/yabek/4/) dans Firefox pour voir le problème original et comment le contourner.
 
 **Bonne nouvelle!** *Il semblerait que Firefox 30 apportera un [correctif](https://bugzilla.mozilla.org/show_bug.cgi?id=697451#c43). C'est une bonne nouvelle pour nos projets futurs mais n'oubliez pas que le bug restera sur les anciennes versions.*
 
