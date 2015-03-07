@@ -198,11 +198,11 @@ Pour toutes actions exigeant un `<button>` n'étant pas dans un `<form>`, utilis
 <button class="fermer" type="button">x</button>
 ```
 
-**Fait marrant :** *Apparement IE7 ne supporte pas correctement l'attribut `value` sur les `<button>`. À la place de lire le contenu de l'attribut, il extrait la valeur grâce à innerHTML (le contenu entre le tag d'ouverture et de fermeture de `<button>`). Néanmoins, je ne considère pas ça comme étant une grosse pré-occupation pour 2 raisons : IE7 n'est plus beaucoup utilisé et il semble plutôt peu commun de définir `value` et le "innerHTML".*
+**Fait marrant :** *Apparement IE7 ne supporte pas correctement l'attribut `value` sur les `<button>`. À la place de lire le contenu de l'attribut, il extrait la valeur grâce à innerHTML (le contenu entre le tag d'ouverture et de fermeture de `<button>`). Néanmoins, je ne considère pas ça comme étant une grosse préoccupation pour 2 raisons : IE7 n'est plus beaucoup utilisé et il semble plutôt peu commun de définir `value` et le "innerHTML".*
 
 <a name="ie-selector-limit"></a>
 ### Limite du nombre de sélecteur sous Internet Explorer
-Internet Explorer 9 (ainsi que les versions précédentes) ne permettent d'avoir qu'un maximum de 4,096 sélecteurs par feuille de style. Il y a aussi une limite du nombre d'insertion cumulée de feuille de style et de `<style></style>`. Tout ce qui se trouve après cette limite sera ignoré par le navigateur. Soit vous séparez votre CSS en plusieurs feuilles de style, soit vous le ré-organisez ! Je conseillerais le dernier.
+Internet Explorer 9 (ainsi que les versions précédentes) ne permettent d'avoir qu'un maximum de 4,096 sélecteurs par feuille de style. Il y a aussi une limite du nombre d'insertion cumulée de feuille de style et de `<style></style>`. Tout ce qui se trouve après cette limite sera ignoré par le navigateur. Soit vous séparez votre CSS en plusieurs feuilles de style, soit vous le réorganisez ! Je conseillerais le dernier.
 
 Pour votre information, voici comment les navigateurs comptent vos sélecteurs :
 
@@ -223,7 +223,7 @@ input[type="text"],
 
 <a name="position-explained"></a>
 ### Explications des positions
-Les éléments avec `position: fixed;` sont positionnés par rapport au cadre du navigateur (viewport). Les éléments avec `position: absolute;` sont placés par rapport à leurs parent le plus proche ayant une position autre que `static` (e.g., `relative`, `absolute`, `fixed`). 
+Les éléments avec `position: fixed;` sont positionnés par rapport au cadre du navigateur (viewport). Les éléments avec `position: absolute;` sont placés par rapport à leur parent le plus proche ayant une position autre que `static` (e.g., `relative`, `absolute`, `fixed`). 
 
 <a name="position-width"></a>
 ### Position et width
