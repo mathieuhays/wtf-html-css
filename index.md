@@ -67,7 +67,7 @@ html {
 
 <a name="floats-first"></a>
 ### Flottants en premier
-Les éléments flottant (`float`) devraient toujours être présent en premier dans l'ordre du document. Ces éléments ont souvent besoin d'un conteneur autrement ils pourraient créer un décalage et apparaître après le contenu.
+Les éléments flottants (`float`) devraient toujours être présent en premier dans l'ordre du document. Ces éléments ont souvent besoin d'un conteneur autrement ils pourraient créer un décalage et apparaître après le contenu.
 
 ```html
 <div class="parent">
