@@ -62,7 +62,7 @@ html {
 }
 ```
 
-**Aide!** *Si vous avez un lien pour le signalement de ce bug chez Apple ou Webkit, j'aimerais bien l'inclure. Je ne suis pas sur où signaler ça vu que ça ne s'applique qu'à la version Mobile de Safari.*
+**Aide!** *Si vous avez un lien pour le signalement de ce bug chez Apple ou Webkit, j'aimerais bien l'inclure. Je ne suis pas sûr où signaler ça vu que ça ne s'applique qu'à la version Mobile de Safari.*
 
 
 <a name="floats-first"></a>
