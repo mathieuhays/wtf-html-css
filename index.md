@@ -24,7 +24,7 @@ layout: default
 
 <a name="doctype"></a>
 ### Déclarer un doctype
-Inclure toujours un doctype. Je recommende le tout simple doctype HTML5 :
+Toujours inclure un doctype. Je recommende le tout simple doctype HTML5 :
 
 ```html
 <!DOCTYPE html>
