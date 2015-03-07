@@ -17,14 +17,14 @@ layout: default
 - [Contour intérieur des boutons dans Firefox](#buttons-firefox-outline)
 - [Toujours définir un `type` sur les `<button>`](#buttons-type)
 - [Limite du nombre de sélecteur sous Internet Explorer](#ie-selector-limit)
-- [Explication des positions](#position-explained)
+- [Explications des positions](#position-explained)
 - [Position et width](#position-width)
 - [Position fixed et transform](#position-transforms)
 
 
 <a name="doctype"></a>
 ### Déclarer un doctype
-Toujours inclure un doctype. Je recommende le tout simple doctype HTML5 :
+Toujours inclure un doctype. Je recommande le tout simple doctype HTML5 :
 
 ```html
 <!DOCTYPE html>
@@ -222,7 +222,7 @@ input[type="text"],
 
 
 <a name="position-explained"></a>
-### Explication des positions
+### Explications des positions
 Les éléments avec `position: fixed;` sont positionnés par rapport au cadre du navigateur (viewport). Les éléments avec `position: absolute;` sont placés par rapport à leurs parent le plus proche ayant une position autre que `static` (e.g., `relative`, `absolute`, `fixed`). 
 
 <a name="position-width"></a>
