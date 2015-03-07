@@ -181,7 +181,7 @@ button::-moz-focus-inner {
 
 Vous pouvez voir ce correctif en action dans le même [exemple (JS Bin)](http://jsbin.com/yabek/4/) cité dans la partie précédente.
 
-**Astuce Pro!** *Pensez à ajouter un état `:focus` sur vos boutons, liens et `<input>`. Permettre une capacité d'accès est primordiale, Aussi bien pour les pro qui utilisent la touche `tab` pour naviguer que les personnes soufrants de déficience visuelle.*
+**Astuce Pro!** *Pensez à ajouter un état `:focus` sur vos boutons, liens et `<input>`. Permettre une capacité d'accès est primordiale, Aussi bien pour les pro qui utilisent la touche `tab` pour naviguer que les personnes souffrant de déficience visuelle.*
 
 <a name="buttons-type"></a>
 ### Toujours définir un `type` sur les `<button>`
